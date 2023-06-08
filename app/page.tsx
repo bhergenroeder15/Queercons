@@ -64,31 +64,29 @@ export default function Home() {
           <p>Going to the second link</p>
         </Link>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+        <Link
+          href="/posts/third-post"
           className={styles.card}
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Click here <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
+          <p>Third link</p>
+        </Link>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+        <Link
+          href="/posts/fourth-post"
           className={styles.card}
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            Okay! <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Fourth Post
           </p>
-        </a>
+        </Link>
       </div>
     </main>
   )
